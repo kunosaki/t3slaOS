@@ -9,15 +9,14 @@ class MyClient(discord.Client):
     async def on_member_join(self, member):
         if ("h0nde" in member.name.lower()) and ("twitter" in member.name.lower()):
             try:
-                await member.ban(reason="triggered an automatic spam filter")
+                await member.ban(reason="t3sla is better, h0nde spam")
                 return
             except discord.Forbidden:
-                print("I don't have perms to ban")
+                print("why you no perm set for me ban ")
 
-        # thanks AlexFlipnote#0001 for this second approach
         time_between_insertion = datetime.datetime.utcnow() - member.created_at
         if time_between_insertion < datetime.timedelta(days=1):
-            await member.ban(reason="triggered an automatic spam filter, account too new")
+            await member.ban(reason="t3sla is better, h0nde spam")
             return
 
 intents = discord.Intents.default()
