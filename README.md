@@ -1,2 +1,2 @@
-# t3slaOS
+# t3slaOS - T3sla OpenSourced
 T3sla is purely made to ban all the H0nde bots spamming every server. Recently it's been getting out of hand on lots of servers I'm in, even private ones. I made this bot within a few minutes and is hosted on heroku. An open sauced version is available wherever top.gg shows the github url. There are no commands available, this bot is only intended to ban every account bot/user with the words "h0nde" and "twitter". It will only ban the account if the two words are in one username, if 'twitter' for example is in another person's username, but doesn't have 'h0nde' in it, it will not ban. Thanks! (If anything goes wrong, please let me know via DM @kuno#0002)
